@@ -1,0 +1,59 @@
+.body {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    text-align: center;
+    border-radius: 10px;
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+  
+  
+}
+
+.header {
+    box-sizing: border-box; 
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: blanchedalmond;
+    color: black;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.hbuttons {
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.info {
+    background-color: blanchedalmond;
+    padding: 1rem;
+    text-align: center; 
+    border-radius: 12px;
+}
+
+.aboutme {
+    background-color: grey;
+    width: 60%;
+    min-height: 30px;
+    padding: 0.1rem;
+    margin: 0 auto;
+    color: white;
+    border-radius: 12px;
+}
+
+.contact {
+    background-color: blanchedalmond;
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
